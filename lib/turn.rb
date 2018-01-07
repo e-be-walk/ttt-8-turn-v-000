@@ -13,7 +13,7 @@ def turn(board)
   index
 
   if valid_move?(board, index)
-    return true
+    puts "valid move"
     move(board, index, value)
     display_board(board)
   else
