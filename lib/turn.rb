@@ -13,14 +13,12 @@ def turn(board)
   index
 
   if valid_move?(board, index) == true
-    return true
     move(board, index, value = "X")
-    turn(board)
     display_board(board)
   else
     puts "Please enter 1-9:\n"
     turn(board)
-    display_board(board)
+  
   end
   display_board(board)
 end
