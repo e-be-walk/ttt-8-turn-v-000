@@ -18,7 +18,7 @@ def turn(board)
     turn(board)
     display_board(board)
   else
-    puts "Please enter 1-9:"
+    puts "Please enter 1-9:\n"
     turn(board)
   end
   display_board(board)
